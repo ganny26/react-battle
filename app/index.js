@@ -4,7 +4,8 @@ import Navigation from './components/navcomponent';
 import { Router, Route, IndexRoute, hashHistory, Link } from 'react-router';
 import RouterC from './config/routes';
 import User from './userComponents/userAdd';
+import CounterParent from './userComponents/counter';
 
 ReactDOM.render((
-  <User/>
+  <CounterParent/>
 ), document.getElementById('app'));
