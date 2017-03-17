@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack -d",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --history-api-fallback"
   },
   "dependencies": {
     "html-webpack-plugin": "^2.28.0",
